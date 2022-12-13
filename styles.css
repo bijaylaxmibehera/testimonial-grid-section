@@ -163,18 +163,18 @@ h1 {
 
 @media only screen and (max-width: 768px) {
     body {
-        height: auto;
-        margin: auto 1rem;
+        margin:2rem;
     }
     .container{
         display: block;
-        max-width: 100%;
-        margin: 2rem auto;
     }
 
     .wrapper {
         max-width: 100%;
         grid-template-columns: 1fr;
         grid-template-areas: "a" "b" "d" "e" "c";
+    }
+    .c{
+        margin-bottom: 2rem;
     }
 }
